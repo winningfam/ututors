@@ -1,0 +1,43 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    background: white;
+    border-bottom: 1px solid black;
+    height: 90px;
+    z-index: 10;
+}
+.title {
+    text-align: left;
+    color: orange;
+    font-size: 3rem;
+    transform: translateY(-25px);
+}
+.subtitle {
+    text-align: left;
+    color: orange;
+    transform: translateY(-55px);
+}
+.body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    margin-top: 100px;
+}
+main {
+    flex: 1;
+    padding: 1rem;
+}
+.nav {
+    flex: 0 0 12em;
+    order: -1;
+    border-right: 1px solid black;
+}
+.menu__title {
+    transform: translateY(-20px);
+    margin-bottom: 0;
+}
+ul {
+    margin-top: 0;
+}
