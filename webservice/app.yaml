@@ -1,0 +1,8 @@
+runtime: nodejs10
+env_variables:
+  SQL_USER: root
+  SQL_PASSWORD: pass
+  SQL_DATABASE: my_database
+  INSTANCE_CONNECTION_NAME: ututors:us-central1-a:test
+beta_settings:
+  cloud_sql_instances: ututors:us-central1-a:test
