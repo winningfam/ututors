@@ -1,0 +1,33 @@
+.image-cropper {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+img {
+    margin: 0 auto;
+    margin-left: -50%;
+    height: 100%;
+    width: auto;
+}
+
+.title {
+    text-align: center;
+    color: orange;
+}
+
+.bio {
+    text-align: justify;
+}
+
+.row {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+    row-gap: 30px;
+}
